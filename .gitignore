@@ -1,0 +1,25 @@
+node_modules
+dist
+.DS_Store
+.env
+
+# Ignore the output video from Git but not videos you import into src/.
+out
+
+# kept out of GitHub
+node_modules/
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.venv/
+venv/
+.next/
+*.log
+logs/
+Thumbs.db
+out/
+renders/
+snapshots/
+.hyperframes/
+.media/cache/
